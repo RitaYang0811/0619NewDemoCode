@@ -1,0 +1,21 @@
+{
+  "name": "demo-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "coverage": "open coverage/lcov-report/index.html",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "jest": "^30.0.2",
+    "lint-staged": "^15.5.2"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^30.0.2"
+  }
+}
